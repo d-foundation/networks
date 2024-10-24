@@ -1,0 +1,64 @@
+{
+  "group_seq": "1",
+  "groups": [
+    {
+      "id": "1",
+      "admin": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+      "metadata": "oversight-committee",
+      "version": "2",
+      "total_weight": "3",
+      "created_at": "2024-10-23T04:53:19.834667Z"
+    }
+  ],
+  "group_members": [
+    {
+      "group_id": "1",
+      "member": {
+        "address": "dchain1s2x63w89rq4r7j88a3jhz7mp97xcpsfge3hzuu",
+        "weight": "1",
+        "metadata": "OC_3",
+        "added_at": "2024-10-23T04:53:19.834667Z"
+      }
+    },
+    {
+      "group_id": "1",
+      "member": {
+        "address": "dchain1x8q4vekgcdpfg7pwr70k6yfwx0ava8h2jzvz55",
+        "weight": "1",
+        "metadata": "OC_1",
+        "added_at": "2024-10-23T04:53:19.834667Z"
+      }
+    },
+    {
+      "group_id": "1",
+      "member": {
+        "address": "dchain14haw0jsn4jmhd02rvya9hhfs94834yhqzdekwr",
+        "weight": "1",
+        "metadata": "OC_2",
+        "added_at": "2024-10-23T04:53:19.834667Z"
+      }
+    }
+  ],
+  "group_policy_seq": "1",
+  "group_policies": [
+    {
+      "address": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+      "group_id": "1",
+      "admin": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+      "metadata": "oversight-committee-policy",
+      "version": "1",
+      "decision_policy": {
+        "@type": "/cosmos.group.v1.ThresholdDecisionPolicy",
+        "threshold": "2",
+        "windows": {
+          "voting_period": "432000s",
+          "min_execution_period": "0s"
+        }
+      },
+      "created_at": "2024-10-23T04:53:19.834667Z"
+    }
+  ],
+  "proposal_seq": "0",
+  "proposals": [],
+  "votes": []
+}

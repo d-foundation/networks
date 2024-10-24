@@ -1,0 +1,50 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "platformd",
+          "identity": "",
+          "website": "",
+          "security_contact": "info@nymlab.it",
+          "details": "A regulatory-grade Real World Asset notarisation, securitisation and investment management application"
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1000000",
+        "delegator_address": "",
+        "validator_address": "dchainvaloper12s2ulux5w77tmzw8we24jcuym3mth2xtcvxuqt",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "v2Gi/GSTNlSoAuPrDCcnve5gFL7iGeC5Vd3p3w2T78Y="
+        },
+        "value": { "denom": "udt", "amount": "100000000000000" }
+      }
+    ],
+    "memo": "051b125875acde50e18585b4c8cafdcdb1e27a5a@15.235.207.44:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "A4A6zZ78YkM0chTMsG52HoNlwPOCIVFecIKVOqvb2thO"
+        },
+        "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
+        "sequence": "0"
+      }
+    ],
+    "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" },
+    "tip": null
+  },
+  "signatures": [
+    "KUNqzPlqBnGHE903Sva5iEHboDbfrRdCmZZecptoslNI9hdraIorEEblMBb3N+/rV0PjYER8g4wzHGI+waDLHQ=="
+  ]
+}

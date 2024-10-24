@@ -1,0 +1,73 @@
+{
+  "group_seq": "1",
+  "groups": [
+    {
+      "id": "1",
+      "admin": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+      "metadata": "oversight-committee-group",
+      "version": "2",
+      "total_weight": "4",
+      "created_at": "2025-02-20T06:59:00.871106Z"
+    }
+  ],
+  "group_members": [
+    {
+      "group_id": "1",
+      "member": {
+        "address": "dchain1x8s73ygx5yhyzm8tltgyp6sjl5rqrlagm5wvf7",
+        "weight": "1",
+        "metadata": "Platform-D",
+        "added_at": "2025-02-20T06:59:00.871106Z"
+      }
+    },
+    {
+      "group_id": "1",
+      "member": {
+        "address": "dchain18u8mueqz35rcxm5xpt77kpme56wgpky5zr6hxx",
+        "weight": "1",
+        "metadata": "Nymlab-Technologies",
+        "added_at": "2025-02-20T06:59:00.871106Z"
+      }
+    },
+    {
+      "group_id": "1",
+      "member": {
+        "address": "dchain1ttfp9e30xjkv65p2zjw3z9drghzgwgtp8ewfeq",
+        "weight": "1",
+        "metadata": "Gayadeed",
+        "added_at": "2025-02-20T06:59:00.871106Z"
+      }
+    },
+    {
+      "group_id": "1",
+      "member": {
+        "address": "dchain13684pldgh6w8zn5az4ls8phyn6v7tu0nclge86",
+        "weight": "1",
+        "metadata": "D-Foundation",
+        "added_at": "2025-02-20T06:59:00.871106Z"
+      }
+    }
+  ],
+  "group_policy_seq": "1",
+  "group_policies": [
+    {
+      "address": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+      "group_id": "1",
+      "admin": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+      "metadata": "oversight-committee-group-policy",
+      "version": "2",
+      "decision_policy": {
+        "@type": "/cosmos.group.v1.ThresholdDecisionPolicy",
+        "threshold": "2",
+        "windows": {
+          "voting_period": "432000s",
+          "min_execution_period": "0s"
+        }
+      },
+      "created_at": "2025-02-20T06:59:00.871106Z"
+    }
+  ],
+  "proposal_seq": "0",
+  "proposals": [],
+  "votes": []
+}

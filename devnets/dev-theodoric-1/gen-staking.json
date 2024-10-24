@@ -1,0 +1,17 @@
+{
+  "params": {
+    "unbonding_time": "1814400s",
+    "max_validators": 10,
+    "max_entries": 7,
+    "historical_entries": 10000,
+    "bond_denom": "udt",
+    "min_commission_rate": "0.000000000000000000"
+  },
+  "last_total_power": "0",
+  "last_validator_powers": [],
+  "validators": [],
+  "delegations": [],
+  "unbonding_delegations": [],
+  "redelegations": [],
+  "exported": false
+}

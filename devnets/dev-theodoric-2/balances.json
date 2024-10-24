@@ -1,0 +1,301 @@
+{
+  "balances": [
+    {
+      "address": "dchain1x8s73ygx5yhyzm8tltgyp6sjl5rqrlagm5wvf7",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain18u8mueqz35rcxm5xpt77kpme56wgpky5zr6hxx",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1ttfp9e30xjkv65p2zjw3z9drghzgwgtp8ewfeq",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain13684pldgh6w8zn5az4ls8phyn6v7tu0nclge86",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain124mp7zgfrdhgmdlnsg3z6q8q7h5t7z7ke24q7j",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1qfl0c98axh0surkftqldcp8kgc56l0ua9cpxxy",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain177nfxztq95m7z0rg26faupqfvv7naj5w3twjqa",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1m6xv687trusz90rhtnnddk3kmujhsyhc084j7l",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1mrert0ymuqejt93yu5u0y95yp53pzuvrj605ht",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1ztlzag5ha4edln3u83dxy6365n9ume938408nn",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain188rt6t2dlfcwwdtvrmdcwuqh9fxyj5awnc46a4",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1pq0je3ffw8dnphg6kr9x7f79txjk7yw4dgaqdx",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain12gndc6w6pqv3n7xhcehqstfm868k03mslm0pkr",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain15wrwaxmjad5t5zzc9senwpprymn850cw7m9my4",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1yt4tmlpy95ppjcqcslk3k30rawls6ffx53kwlz",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain14z5lgd5pl5wzsw5fvq6rqzzzn6vwplfy4uezwe",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1zv8axjz9yvxrlxhlhdytvkd047cln8ww6lfmfr",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain159ac5k6sa839n4l6felgc3a3vev3cute0gsjyv",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain17609ak8kqynfcqj2f6c3de0p3dgx5ularw8pu9",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1fd4e6mjgpy4n4ast3xkuw0c5zxyh3tqepz8upx",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1cg3lsxef4rt0ppqny5wfjvpyz5ewqlw6eu8d2j",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1vzd696clt2k2zrhkluknvea97yzyyst8273adt",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1tsgkkgjzwjh0v0jdlun8ug0aq8kq5lwdpkv0sq",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain162ysqpnr9hhvu4fmsavvql2mw5p548556spxc9",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain14gp83ngu26m8zczvhy0fstj3h3ghplgpq3xdnd",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain10v0mhw5ngt5nmpmxc5fml29cp6afdc2y7h6wp0",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1p7lw7swac4ycv79w9vp4fcjvfd6s56tg98056n",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1egpasu32gcmj24ccrn0gkf26xwrrrvefcqg6ya",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1shn4pdh3lm0rhft4y39kvdafyxgyp0axqlgm6p",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1k6hfuwqh2uksczccglp4xmds7s36m0qu9vmy2g",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain19zljw9j5ya4y7p304tpsqgddhuvwrqcu4frekk",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain10c9zcpwzn6ajtrphlfzpcqc62uwtthp8wj2ppk",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    },
+    {
+      "address": "dchain1czedl9q83klnjzmc2qy2xkyuhxljney5g0akwf",
+      "coins": [
+        {
+          "denom": "udt",
+          "amount": "500000000000000"
+        }
+      ]
+    }
+  ]
+}
