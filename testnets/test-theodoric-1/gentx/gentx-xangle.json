@@ -5,10 +5,10 @@
         "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
         "description": {
           "moniker": "xangle",
-          "identity": "",
-          "website": "",
-          "security_contact": "",
-          "details": ""
+          "identity": "B4036015EC09F392",
+          "website": "https://xangle.io",
+          "security_contact": "node@crossangle.io",
+          "details": "Xangle is Web3 research and explorer/validator service provider, empowering businesses in the evolving Web3 ecosystem."
         },
         "commission": {
           "rate": "0.050000000000000000",
@@ -28,7 +28,7 @@
         }
       }
     ],
-    "memo": "c0bb7d54225ff95d18492c5f39ddad751d8ac085@10.10.16.36:26656",
+    "memo": "c0bb7d54225ff95d18492c5f39ddad751d8ac085@180.210.127.138:26656",
     "timeout_height": "0",
     "extension_options": [],
     "non_critical_extension_options": []
