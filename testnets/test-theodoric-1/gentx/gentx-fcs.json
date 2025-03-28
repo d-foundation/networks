@@ -1,0 +1,62 @@
+{
+    "body": {
+      "messages": [
+        {
+          "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+          "description": {
+            "moniker": "FCS",
+            "identity": "0FA38A5EDF5FA362",
+            "website": "https://www.finoa.io/staking-delegation",
+            "security_contact": "",
+            "details": "Stake and grow your assets using Finoa's institutional-grade infrastructure, run by Finoa Consensus Services."
+          },
+          "commission": {
+            "rate": "0.050000000000000000",
+            "max_rate": "0.100000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "30000000000000",
+          "delegator_address": "",
+          "validator_address": "dchainvaloper1msd6atsvllg8j7yu3tzrfzmcf43e392j86m8pc",
+          "pubkey": {
+            "@type": "/cosmos.crypto.ed25519.PubKey",
+            "key": "xmHcyKPJwUgXR0D485YxUnjA41W6bc6a2C798nRSoEU="
+          },
+          "value": {
+            "denom": "udt",
+            "amount": "100000000000000"
+          }
+        }
+      ],
+      "memo": "e82c1365a022a7d87e22979d41d68da188c2f415@185.100.10.16:26656",
+      "timeout_height": "0",
+      "extension_options": [],
+      "non_critical_extension_options": []
+    },
+    "auth_info": {
+      "signer_infos": [
+        {
+          "public_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "AqJTBw1AEPNR8mrixnbelweqbc2fRO5ji6lLuehlV8QL"
+          },
+          "mode_info": {
+            "single": {
+              "mode": "SIGN_MODE_DIRECT"
+            }
+          },
+          "sequence": "0"
+        }
+      ],
+      "fee": {
+        "amount": [],
+        "gas_limit": "200000",
+        "payer": "",
+        "granter": ""
+      },
+      "tip": null
+    },
+    "signatures": [
+      "hHRPyZ4cKlwX+tF1sgiMPe2QoJ/P/Ia/1nGGFeXMOXMQ1verUBWb2qFtb/lKft/OO0dgxv5McreG/bXFgNomug=="
+    ]
+  }
