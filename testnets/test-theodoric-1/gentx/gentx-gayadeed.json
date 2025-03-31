@@ -1,0 +1,50 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Gayadeed",
+          "identity": "",
+          "website": "gayadeed.it",
+          "security_contact": "info@gayadeed.it",
+          "details": "Digital Transformation Hub"
+        },
+        "commission": {
+          "rate": "0.100000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "30000000000000",
+        "delegator_address": "",
+        "validator_address": "dchainvaloper1h84mlpslmylfl9weftk2x3f4fj2j00yf7ejx2h",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "N/DZoK6Z4D3yWffgjcdr2sK0Q6foJ6MMRisricDCvmU="
+        },
+        "value": { "denom": "udt", "amount": "30000000000000" }
+      }
+    ],
+    "memo": "273d8affb60c0bb91cfdca0ad582336779a71a5d@137.74.195.214:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "Asql9huRi5Zk2F98y9KUMTrRt/wV/1GUHoaDlMltk/95"
+        },
+        "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
+        "sequence": "0"
+      }
+    ],
+    "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" },
+    "tip": null
+  },
+  "signatures": [
+    "A59R6+buXe9hikGxrVNvuquTfH17x/ZFPsDQ6FiK4hpirjMxMmd1lEKlg6jNoFxrH0vqbevN05yZjoEbcWRQlg=="
+  ]
+}
