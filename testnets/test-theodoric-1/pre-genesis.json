@@ -167,6 +167,13 @@
           "pub_key": null,
           "account_number": "19",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "dchain1eq8u5qgghjhs7udgrt8whcn2pvywrdn6vx9pl2",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
         }
       ]
     },
@@ -316,7 +323,7 @@
           "coins": [
             {
               "denom": "udt",
-              "amount": "43300000000000000"
+              "amount": "42400000000000000"
             }
           ]
         },
@@ -349,6 +356,15 @@
         },
         {
           "address": "dchain1lpj8g4k6tcum78jy7c7gvwdj96l5u979j4mw50",
+          "coins": [
+            {
+              "denom": "udt",
+              "amount": "900000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain1eq8u5qgghjhs7udgrt8whcn2pvywrdn6vx9pl2",
           "coins": [
             {
               "denom": "udt",
