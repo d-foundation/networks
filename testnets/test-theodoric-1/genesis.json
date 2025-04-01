@@ -612,7 +612,7 @@
                   "identity": "",
                   "website": "dfoundation.io",
                   "security_contact": "info@dfoundation.io",
-                  "details": "We Research and Develop Ecosystems for Compliant & Disintermediated Interactions Using Value-Representing Verifiable Data"
+                  "details": "We Research and Develop Ecosystems for Compliant \u0026 Disintermediated Interactions Using Value-Representing Verifiable Data"
                 },
                 "commission": {
                   "rate": "0.100000000000000000",
@@ -1316,7 +1316,128 @@
       },
       "verifier_contracts": [],
       "x_verification_routes_registry": {},
-      "init_app_routes": [],
+      "init_app_routes": [
+        {
+          "app_addr": "gov",
+          "app_admin": "gov",
+          "routes": [
+            {
+              "verifier_type": "sdjwt",
+              "msg_type": "d.notary.v1.MsgRegisterNotaryInfo",
+              "route_id": "1",
+              "issuer_source_or_data": [
+                {
+                  "source": "",
+                  "data_or_location": "eyJpc3N1ZXIiOiJpc3N1ZXIiLCJqd2siOiJld29nSUNBZ0lDQWdJQ0FnSUNBZ0lDSnJkSGtpT2lBaVQwdFFJaXdLSUNBZ0lDQWdJQ0FnSUNBZ0lDQWlkWE5sSWpvZ0luTnBaeUlzQ2lBZ0lDQWdJQ0FnSUNBZ0lDQWdJbU55ZGlJNklDSkZaREkxTlRFNUlpd0tJQ0FnSUNBZ0lDQWdJQ0FnSUNBaWVDSTZJQ0kwY2tRemJtcHpWWHBoU3pSME1URmhVV1pJU1hkUFVXUnJkMFZsUjNaWmVrcDBjVkJNTm1Jd1JtdHJJZ29nSUNBZ0lDQWdJQ0FnSUNCOSJ9"
+                }
+              ],
+              "requirements": [
+                {
+                  "attribute": "age",
+                  "criterion": {
+                    "string": "",
+                    "number": {
+                      "value": "30",
+                      "operator": "equal_to"
+                    },
+                    "boolean": false,
+                    "expires": false,
+                    "not_contained_in": []
+                  }
+                },
+                {
+                  "attribute": "joined_at",
+                  "criterion": {
+                    "string": "",
+                    "number": {
+                      "value": "2020",
+                      "operator": "greater_than"
+                    },
+                    "boolean": false,
+                    "expires": false,
+                    "not_contained_in": []
+                  }
+                }
+              ],
+              "additional_req": []
+            },
+            {
+              "verifier_type": "sdjwt",
+              "msg_type": "ProcessProposal",
+              "route_id": "100",
+              "issuer_source_or_data": [
+                {
+                  "source": "",
+                  "data_or_location": "eyJpc3N1ZXIiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDoyOWRmM2JhZi0xNGEzLTQwNzMtOGQ4ZS1hZTU5OGQwYWRkZmIiLCJqd2siOiJld29nSUNBZ0lDQWdJQ0FnSUNBZ0lDSnJkSGtpT2lBaVQwdFFJaXdLSUNBZ0lDQWdJQ0FnSUNBZ0lDQWlkWE5sSWpvZ0luTnBaeUlzQ2lBZ0lDQWdJQ0FnSUNBZ0lDQWdJbU55ZGlJNklDSkZaREkxTlRFNUlpd0tJQ0FnSUNBZ0lDQWdJQ0FnSUNBaWVDSTZJQ0l0V2s1WlJsZEdOWHBDZUd0ZlNrTjNRemRVZEVReWVUVlJkVUZqVW5KSU5rTjRZMGhqZVdodUxWQkZJZ29nSUNBZ0lDQWdJQ0FnSUNCOSJ9"
+                }
+              ],
+              "requirements": [
+                {
+                  "attribute": "idx",
+                  "criterion": {
+                    "string": "",
+                    "number": null,
+                    "boolean": false,
+                    "expires": false,
+                    "not_contained_in": [
+                      "0"
+                    ]
+                  }
+                }
+              ],
+              "additional_req": [
+                {
+                  "attribute": "validator",
+                  "criterion": {
+                    "string": "dyn",
+                    "number": null,
+                    "boolean": false,
+                    "expires": false,
+                    "not_contained_in": []
+                  }
+                }
+              ]
+            },
+            {
+              "verifier_type": "sdjwt",
+              "msg_type": "VerifyVoteExtension",
+              "route_id": "200",
+              "issuer_source_or_data": [
+                {
+                  "source": "",
+                  "data_or_location": "eyJpc3N1ZXIiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDoyOWRmM2JhZi0xNGEzLTQwNzMtOGQ4ZS1hZTU5OGQwYWRkZmIiLCJqd2siOiJld29nSUNBZ0lDQWdJQ0FnSUNBZ0lDSnJkSGtpT2lBaVQwdFFJaXdLSUNBZ0lDQWdJQ0FnSUNBZ0lDQWlkWE5sSWpvZ0luTnBaeUlzQ2lBZ0lDQWdJQ0FnSUNBZ0lDQWdJbU55ZGlJNklDSkZaREkxTlRFNUlpd0tJQ0FnSUNBZ0lDQWdJQ0FnSUNBaWVDSTZJQ0l0V2s1WlJsZEdOWHBDZUd0ZlNrTjNRemRVZEVReWVUVlJkVUZqVW5KSU5rTjRZMGhqZVdodUxWQkZJZ29nSUNBZ0lDQWdJQ0FnSUNCOSJ9"
+                }
+              ],
+              "requirements": [
+                {
+                  "attribute": "idx",
+                  "criterion": {
+                    "string": "",
+                    "number": null,
+                    "boolean": false,
+                    "expires": false,
+                    "not_contained_in": [
+                      "0"
+                    ]
+                  }
+                }
+              ],
+              "additional_req": [
+                {
+                  "attribute": "validator",
+                  "criterion": {
+                    "string": "dyn",
+                    "number": null,
+                    "boolean": false,
+                    "expires": false,
+                    "not_contained_in": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "exported": false
     },
     "wasm": {
