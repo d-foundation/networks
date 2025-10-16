@@ -1808,7 +1808,7 @@
                   "max_rate": "0.100000000000000000",
                   "max_change_rate": "0.010000000000000000"
                 },
-                "min_self_delegation": "30000000000000",
+                "min_self_delegation": "1000000000000",
                 "delegator_address": "",
                 "validator_address": "dchainvaloper19w2488ntfgpduzqq3sk4j5x387zynwknm362tl",
                 "pubkey": {
@@ -1817,7 +1817,7 @@
                 },
                 "value": {
                   "denom": "udt",
-                  "amount": "100000000000000"
+                  "amount": "1000000000000"
                 }
               }
             ],
@@ -1852,7 +1852,7 @@
             "tip": null
           },
           "signatures": [
-            "HAdfqMs6IOv6eWEnRVUKu1Fo9hiO0M2aQ99vTqeTcV1Nh74ecRSI5GqVKitXq9RRQpOv78z0wBCoFAmzUva7Ig=="
+            "uwEvwlkv9vjvkBvzsViuoGNFxRXXcPPut4rmtJ1WCa92UQjjaui4HuSXprX/PT+6PpTkQeGCWYNsNI/foMNvbw=="
           ]
         },
         {
