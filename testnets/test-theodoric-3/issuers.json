@@ -1,0 +1,42 @@
+{
+  "create_validator": {
+    "did": "did:web:did.gayadeed.it:templates:6ace72018bfb72b5546fcb9b",
+    "jwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "NH-Aen7iboDG4R7cXcDLm2te4EbmdEhr6vaEOt59bEQ"
+    }
+  },
+  "validator": {
+    "did": "did:web:did.gayadeed.it:templates:6ace72018bfb72b5546fcb9e",
+    "jwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "VdACNZdMPYGVWmFBEPyX0kySqLszKu-_K36bQ_5JXDU"
+    }
+  },
+  "voter": {
+    "did": "did:web:did.gayadeed.it:templates:6ace72038bfb72b5546fcba1",
+    "jwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "4P0m6WgAVJxMyK4aF8jB2F5HomW_ZnCLcV1rUePp5dc"
+    }
+  },
+  "msg_notarise": {
+    "did": "did:web:did.gayadeed.it:templates:6ace72038bfb72b5546fcba4",
+    "jwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "kr9ifi16hLWQq5Yhk1IqiUXIDwCJWUCdruyDIDAKft0"
+    }
+  },
+  "msg_register_notary_info": {
+    "did": "did:web:did.gayadeed.it:templates:6ace72048bfb72b5546fcba7",
+    "jwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "lUcK0_ih3AlaFc2P4S8o-VTFCowavUjrjDjLEf9VErs"
+    }
+  }
+}
