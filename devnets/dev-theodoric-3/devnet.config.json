@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "network_type": "devnet",
+    "chain_id": "dchain-devnet-1",
+    "genesis_time": "2026-11-01T00:00:00Z",
+    "protocol_version": "v1.0.0-rc1"
+  },
+  "economics": {
+    "total_supply_dt": "100000000000",
+    "dt_per_eur": "250"
+  },
+  "allocations": [
+    {
+      "name": "validator-0",
+      "address": "dchain10d07y265gmmuvt4z0w9aw880jnsr700jz0hu9t",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": { "start_offset_seconds": 2592000, "end_offset_seconds": 3801600 }
+    },
+    {
+      "name": "validator-1",
+      "address": "dchain12cqplzmzg0gddsy008739zt3ulvevp4t50wzrj",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": { "start_offset_seconds": 2592000, "end_offset_seconds": 3801600 }
+    },
+    {
+      "name": "validator-2",
+      "address": "dchain15t7esmygwkt4kzf5d246kh36u8kw8lmwn7pwjw",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": { "start_offset_seconds": 2592000, "end_offset_seconds": 3801600 }
+    },
+    {
+      "name": "service-pool",
+      "amount_dt": "10000000000",
+      "type": "module",
+      "module": "servicepool"
+    },
+    {
+      "name": "ecosystem-fee",
+      "amount_dt": "12000000000",
+      "type": "group_policy",
+      "policy_seq": 3
+    },
+    {
+      "name": "df-treasury",
+      "amount_dt": "32200000000",
+      "type": "group_policy",
+      "policy_seq": 2
+    },
+    {
+      "name": "investor-pool",
+      "address": "dchain1glssr857qs2graqdpmq0g59jaetcj63zl5nqls",
+      "amount_dt": "45610000000",
+      "type": "continuous_vesting",
+      "vesting": { "start_offset_seconds": 2592000, "end_offset_seconds": 3801600 }
+    },
+    {
+      "name": "faucet",
+      "address": "dchain1ljfam58dj5v8vq3erlpgsyg7k3j0guflekstvx",
+      "amount_dt": "100000000",
+      "type": "base"
+    }
+  ],
+  "module_params": {
+    "auth": { "tx_size_cost_per_byte": 15 },
+    "staking": {
+      "unbonding_seconds": 1814400,
+      "max_validators": 30,
+      "min_commission_rate": "0.05"
+    },
+    "slashing": {
+      "signed_blocks_window": 14400,
+      "min_signed_per_window": "0.90",
+      "downtime_jail_seconds": 600,
+      "slash_fraction_double_sign": "0",
+      "slash_fraction_downtime": "0"
+    },
+    "gov": {
+      "min_deposit_dt": "100",
+      "expedited_min_deposit_dt": "500",
+      "voting_seconds": 3600,
+      "expedited_voting_seconds": 1800,
+      "max_deposit_seconds": 3600,
+      "quorum": "0.334",
+      "threshold": "0.5",
+      "veto_threshold": "0.334",
+      "burn_vote_veto": true,
+      "oversight_grace_seconds": 900,
+      "oversight_disallowed_list": []
+    },
+    "servicepool": {
+      "epoch_identifier": "day",
+      "validator_epoch_reward_dt": "15000",
+      "fee_burn_ratio": "1.0",
+      "fee_distribute_ratio": "0.0"
+    },
+    "evm": {
+      "create_allowlist": ["0x1234567890abcdef1234567890abcdef12345678"]
+    },
+    "feemarket": {
+      "tx_target_eur_cents": "0.01",
+      "reference_gas": 200000
+    },
+    "erc20": { "permissionless_registration": false }
+  },
+  "groups": {
+    "oversight_committee": {
+      "members": [
+        { "address": "dchain1uke8ztjylw9a50kppmyzvyqhs2wy4mmz4e7qvl", "weight": "1", "metadata": "OC_1" },
+        { "address": "dchain1yvc6a8yfhxfq5je8sqfue48wu0pek43ulrgevs", "weight": "1", "metadata": "OC_2" },
+        { "address": "dchain1zmcjh7rthqdfkknfzp0qhxv8kjwz6hvvc4y9p7", "weight": "1", "metadata": "OC_3" }
+      ],
+      "threshold": "2",
+      "voting_period_seconds": 600,
+      "min_execution_seconds": 0
+    },
+    "treasury": {
+      "members": [
+        { "address": "dchain1uke8ztjylw9a50kppmyzvyqhs2wy4mmz4e7qvl", "weight": "1", "metadata": "TR_1" },
+        { "address": "dchain1yvc6a8yfhxfq5je8sqfue48wu0pek43ulrgevs", "weight": "1", "metadata": "TR_2" },
+        { "address": "dchain1zmcjh7rthqdfkknfzp0qhxv8kjwz6hvvc4y9p7", "weight": "1", "metadata": "TR_3" }
+      ],
+      "threshold": "2",
+      "voting_period_seconds": 600,
+      "min_execution_seconds": 0
+    },
+    "ecosystem": {
+      "members": [
+        { "address": "dchain1uke8ztjylw9a50kppmyzvyqhs2wy4mmz4e7qvl", "weight": "1", "metadata": "EC_1" },
+        { "address": "dchain1yvc6a8yfhxfq5je8sqfue48wu0pek43ulrgevs", "weight": "1", "metadata": "EC_2" },
+        { "address": "dchain1zmcjh7rthqdfkknfzp0qhxv8kjwz6hvvc4y9p7", "weight": "1", "metadata": "EC_3" }
+      ],
+      "threshold": "2",
+      "voting_period_seconds": 600,
+      "min_execution_seconds": 0
+    }
+  },
+  "vcv": {
+    "suspicious_threshold": 10,
+    "max_presentation_len": 3000,
+    "routes": {
+      "create_validator": {
+        "admin": "gov",
+        "issuer_did": "did:cheqd:testnet:29df3baf-14a3-4073-8d8e-ae598d0addfb",
+        "jwk": { "kty": "OKP", "crv": "Ed25519", "x": "-ZNYFWF5zBxk_JCwC7TtD2y5QuAcRrH6CxcHcyhn-PE" }
+      },
+      "vote": {
+        "admin": "gov",
+        "issuer_did": "did:cheqd:testnet:29df3baf-14a3-4073-8d8e-ae598d0addfb",
+        "jwk": { "kty": "OKP", "crv": "Ed25519", "x": "-ZNYFWF5zBxk_JCwC7TtD2y5QuAcRrH6CxcHcyhn-PE" }
+      },
+      "vote_extension": {
+        "admin": "gov",
+        "issuer_did": "did:cheqd:testnet:29df3baf-14a3-4073-8d8e-ae598d0addfb",
+        "jwk": { "kty": "OKP", "crv": "Ed25519", "x": "-ZNYFWF5zBxk_JCwC7TtD2y5QuAcRrH6CxcHcyhn-PE" }
+      },
+      "process_proposal": {
+        "admin": "gov",
+        "issuer_did": "did:cheqd:testnet:29df3baf-14a3-4073-8d8e-ae598d0addfb",
+        "jwk": { "kty": "OKP", "crv": "Ed25519", "x": "-ZNYFWF5zBxk_JCwC7TtD2y5QuAcRrH6CxcHcyhn-PE" }
+      },
+      "register_notary_info": {
+        "admin": "gov",
+        "issuer_did": "did:test:dchain-registrar-issuer",
+        "jwk": { "kty": "OKP", "crv": "Ed25519", "x": "f-mYTElTZDg1TPGQRb9CTiNdAjlnfKVUlAXfKyHFGvU" }
+      },
+      "notarise_content": {
+        "issuer_did": "did:cheqd:testnet:9b3a512f-8a9d-4ac9-aff2-baf77cd4eb16",
+        "jwk": { "kty": "OKP", "crv": "Ed25519", "x": "Lfs5sQMjO71LrPs4NUJF5gM4puBOPH9sAygdDVLOyUo" }
+      },
+      "notarise_extop": {
+        "issuer_did": "did:cheqd:testnet:9b3a512f-8a9d-4ac9-aff2-baf77cd4eb16",
+        "jwk": { "kty": "OKP", "crv": "Ed25519", "x": "Lfs5sQMjO71LrPs4NUJF5gM4puBOPH9sAygdDVLOyUo" }
+      }
+    }
+  },
+  "feegrant": [
+    {
+      "grantee": "dchain1u7fq29h756zcm3rpljvfasdpaxccne4zj08rnz",
+      "spend_limit_dt": "10000000",
+      "expiry_seconds": 31536000,
+      "allowed_messages": ["/d.notary.v1.MsgNotarise"]
+    },
+    {
+      "grantee": "dchain1u9r2qkvfxw80lm3x22j0kcac0az04rrmzkgsu3",
+      "spend_limit_dt": "10000000",
+      "expiry_seconds": 31536000,
+      "allowed_messages": ["/d.depository.v1.MsgIssuePT"]
+    }
+  ],
+  "notary": {
+    "admin_address": "dchain1u7fq29h756zcm3rpljvfasdpaxccne4zj08rnz",
+    "notarisation_fee_rate": "0.005",
+    "eur_price_dt": "250",
+    "asset_types": { "1": "invoice" },
+    "conversion_rates": { "1": "1.0", "2": "0.85", "3": "0.87" }
+  },
+  "depository": {
+    "platform_admin": "dchain1u7fq29h756zcm3rpljvfasdpaxccne4zj08rnz",
+    "depositories": [
+      {
+        "id": "DEPO-1",
+        "owner": "dchain1glssr857qs2graqdpmq0g59jaetcj63zl5nqls",
+        "pauser": "dchain1ljfam58dj5v8vq3erlpgsyg7k3j0guflekstvx",
+        "region": "UK"
+      }
+    ],
+    "authorised_issuers": {
+      "DEPO-1": "dchain1u9r2qkvfxw80lm3x22j0kcac0az04rrmzkgsu3"
+    }
+  },
+  "consensus": {
+    "block_max_bytes": 22020096,
+    "block_max_gas": 50000000,
+    "evidence_max_age_blocks": 604800,
+    "evidence_max_age_seconds": 1814400
+  }
+}
