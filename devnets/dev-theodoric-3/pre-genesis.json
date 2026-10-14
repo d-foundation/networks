@@ -1,0 +1,990 @@
+{
+  "app_name": "dchain",
+  "app_version": "v1.0.0-rc1",
+  "genesis_time": "2026-10-13T19:00:00Z",
+  "chain_id": "dchain-devnet-1",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "15",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "dchain18ldwv9cnf994dy8rjh0xhewjysnwcth23wvjdl",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "adt",
+                "amount": "30000000000000000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1793145600"
+          },
+          "start_time": "1791936000"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "dchain13awutyz2qvdznc6ftafvgj0d8z0hw6tfentldr",
+              "pub_key": null,
+              "account_number": "1",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "adt",
+                "amount": "30000000000000000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1793145600"
+          },
+          "start_time": "1791936000"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "dchain19xq2jzsq8fwaxw8phhpfq0hdvpesmmuuchm0al",
+              "pub_key": null,
+              "account_number": "2",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "adt",
+                "amount": "30000000000000000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1793145600"
+          },
+          "start_time": "1791936000"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
+          "base_account": {
+            "address": "dchain1syjhquzsthn3h9cepe6q7pu24l7yvu3qsxhjhe",
+            "pub_key": null,
+            "account_number": "3",
+            "sequence": "0"
+          },
+          "name": "servicepool",
+          "permissions": [
+            "burner"
+          ]
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "dchain1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqlu29z6",
+          "pub_key": {
+            "@type": "/cosmos.auth.v1beta1.ModuleCredential",
+            "module_name": "group",
+            "derivation_keys": [
+              "IA==",
+              "AAAAAAAAAAM="
+            ]
+          },
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "dchain1dlszg2sst9r69my4f84l3mj66zxcf3umcgujys30t84srg95dgvsf6sqvf",
+          "pub_key": {
+            "@type": "/cosmos.auth.v1beta1.ModuleCredential",
+            "module_name": "group",
+            "derivation_keys": [
+              "IA==",
+              "AAAAAAAAAAI="
+            ]
+          },
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "dchain1wn4gs7h25tnge93qwnnctkcenxq2q3fm37fg94",
+              "pub_key": null,
+              "account_number": "6",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "adt",
+                "amount": "45610000000000000000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1793145600"
+          },
+          "start_time": "1791936000"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "dchain1sn4p7wtst5rk2d5gur0vzkew8u2sfcm7tepdjc",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+          "pub_key": {
+            "@type": "/cosmos.auth.v1beta1.ModuleCredential",
+            "module_name": "group",
+            "derivation_keys": [
+              "IA==",
+              "AAAAAAAAAAE="
+            ]
+          },
+          "account_number": "8",
+          "sequence": "0"
+        }
+      ]
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "dchain13awutyz2qvdznc6ftafvgj0d8z0hw6tfentldr",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "30000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain18ldwv9cnf994dy8rjh0xhewjysnwcth23wvjdl",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "30000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain19xq2jzsq8fwaxw8phhpfq0hdvpesmmuuchm0al",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "30000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqlu29z6",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "12000000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain1dlszg2sst9r69my4f84l3mj66zxcf3umcgujys30t84srg95dgvsf6sqvf",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "32200000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain1sn4p7wtst5rk2d5gur0vzkew8u2sfcm7tepdjc",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "100000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain1syjhquzsthn3h9cepe6q7pu24l7yvu3qsxhjhe",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "10000000000000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain1wn4gs7h25tnge93qwnnctkcenxq2q3fm37fg94",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "45610000000000000000000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "adt",
+          "amount": "100000000000000000000000000000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "The native staking and gas token of the dchain network.",
+          "denom_units": [
+            {
+              "denom": "adt",
+              "exponent": 0,
+              "aliases": []
+            },
+            {
+              "denom": "dt",
+              "exponent": 18,
+              "aliases": []
+            }
+          ],
+          "base": "adt",
+          "display": "dt",
+          "name": "dt",
+          "symbol": "dt",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "send_enabled": []
+    },
+    "consensus": null,
+    "depository": {
+      "params": {
+        "platform_admin": "dchain1nhsvqfqsw7fe7a6q3n67qj06g0x2r4xqrcs43s"
+      },
+      "depositories": [
+        {
+          "id": "DEPO-1",
+          "owner": "dchain1ch06fe4a6jrp4c65z7zm77jltj6h2hlsug44ew",
+          "pauser": "dchain1klqsk6nl5avy7k7lkh0lwxpq2739zkaztmvks9",
+          "region": "UK",
+          "paused": false
+        }
+      ],
+      "global_notes": [],
+      "depository_counter": "2",
+      "pt_transfer_abilities": {},
+      "authorised_issuers": {
+        "DEPO-1": "dchain1apjl3r63ec87d92qajrrlyjly8ryj25x8zal2d"
+      },
+      "pt_send_restrictions": [],
+      "depository_block_list": []
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.000000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "epochs": {
+      "epochs": [
+        {
+          "identifier": "day",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "86400s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "hour",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "3600s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "minute",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "60s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        },
+        {
+          "identifier": "week",
+          "start_time": "0001-01-01T00:00:00Z",
+          "duration": "604800s",
+          "current_epoch": "0",
+          "current_epoch_start_time": "0001-01-01T00:00:00Z",
+          "epoch_counting_started": false,
+          "current_epoch_start_height": "0"
+        }
+      ]
+    },
+    "erc20": {
+      "params": {
+        "enable_erc20": true,
+        "permissionless_registration": false
+      },
+      "token_pairs": [],
+      "allowances": [],
+      "native_precompiles": [],
+      "dynamic_precompiles": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "accounts": [],
+      "params": {
+        "evm_denom": "adt",
+        "extra_eips": [],
+        "evm_channels": [],
+        "access_control": {
+          "create": {
+            "access_type": "ACCESS_TYPE_PERMISSIONED",
+            "access_control_list": [
+              "0x3de95c7caf0050af274bccb42af86c6ce3c9647f"
+            ]
+          },
+          "call": {
+            "access_type": "ACCESS_TYPE_PERMISSIONLESS",
+            "access_control_list": []
+          }
+        },
+        "active_static_precompiles": [],
+        "history_serve_window": "8192",
+        "extended_denom_options": {
+          "extended_denom": "adt"
+        }
+      },
+      "preinstalls": []
+    },
+    "feegrant": {
+      "allowances": [
+        {
+          "granter": "dchain1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqlu29z6",
+          "grantee": "dchain1u3cyt8ldgw9mrat4p6ng6q9rkmnwwj46jxgkr9",
+          "allowance": {
+            "@type": "/cosmos.feegrant.v1beta1.AllowedMsgAllowance",
+            "allowance": {
+              "@type": "/cosmos.feegrant.v1beta1.BasicAllowance",
+              "spend_limit": [
+                {
+                  "denom": "adt",
+                  "amount": "10000000000000000000000000"
+                }
+              ],
+              "expiration": "2027-10-13T00:00:00Z"
+            },
+            "allowed_messages": [
+              "/d.notary.v1.MsgNotarise"
+            ]
+          }
+        },
+        {
+          "granter": "dchain1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqlu29z6",
+          "grantee": "dchain1apjl3r63ec87d92qajrrlyjly8ryj25x8zal2d",
+          "allowance": {
+            "@type": "/cosmos.feegrant.v1beta1.AllowedMsgAllowance",
+            "allowance": {
+              "@type": "/cosmos.feegrant.v1beta1.BasicAllowance",
+              "spend_limit": [
+                {
+                  "denom": "adt",
+                  "amount": "10000000000000000000000000"
+                }
+              ],
+              "expiration": "2027-10-13T00:00:00Z"
+            },
+            "allowed_messages": [
+              "/d.depository.v1.MsgIssuePT"
+            ]
+          }
+        }
+      ]
+    },
+    "feemarket": {
+      "params": {
+        "no_base_fee": false,
+        "base_fee_change_denominator": 8,
+        "elasticity_multiplier": 2,
+        "enable_height": "0",
+        "base_fee": "125000000000.000000000000000000",
+        "min_gas_price": "125000000000.000000000000000000",
+        "min_gas_multiplier": "0.500000000000000000"
+      },
+      "block_gas": "0"
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "gov_genesis_state": {
+        "starting_proposal_id": "1",
+        "deposits": [],
+        "votes": [],
+        "proposals": [],
+        "deposit_params": null,
+        "voting_params": null,
+        "tally_params": null,
+        "params": {
+          "min_deposit": [
+            {
+              "denom": "adt",
+              "amount": "100000000000000000000"
+            }
+          ],
+          "max_deposit_period": "3600s",
+          "voting_period": "3600s",
+          "quorum": "0.334",
+          "threshold": "0.5",
+          "veto_threshold": "0.334",
+          "min_initial_deposit_ratio": "0.000000000000000000",
+          "proposal_cancel_ratio": "0.500000000000000000",
+          "proposal_cancel_dest": "",
+          "expedited_voting_period": "1800s",
+          "expedited_threshold": "0.667000000000000000",
+          "expedited_min_deposit": [
+            {
+              "denom": "adt",
+              "amount": "500000000000000000000"
+            }
+          ],
+          "burn_vote_quorum": false,
+          "burn_proposal_deposit_prevote": false,
+          "burn_vote_veto": true,
+          "min_deposit_ratio": "0.010000000000000000"
+        },
+        "constitution": ""
+      },
+      "oversight_committee_params": {
+        "grace_period": "900"
+      },
+      "oversight_committee_addr": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+      "oversight_committee_disallowed_list": [],
+      "exported": false
+    },
+    "group": {
+      "group_seq": "3",
+      "groups": [
+        {
+          "id": "1",
+          "admin": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+          "metadata": "oversight-committee",
+          "version": "1",
+          "total_weight": "3",
+          "created_at": "2026-10-13T00:00:00Z"
+        },
+        {
+          "id": "2",
+          "admin": "dchain1dlszg2sst9r69my4f84l3mj66zxcf3umcgujys30t84srg95dgvsf6sqvf",
+          "metadata": "df-treasury",
+          "version": "1",
+          "total_weight": "3",
+          "created_at": "2026-10-13T00:00:00Z"
+        },
+        {
+          "id": "3",
+          "admin": "dchain1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqlu29z6",
+          "metadata": "ecosystem-fee",
+          "version": "1",
+          "total_weight": "3",
+          "created_at": "2026-10-13T00:00:00Z"
+        }
+      ],
+      "group_members": [
+        {
+          "group_id": "1",
+          "member": {
+            "address": "dchain1kk9kr66fgc479ldr9gk622azme74k4a3wh5msx",
+            "weight": "1",
+            "metadata": "OC_1",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        },
+        {
+          "group_id": "1",
+          "member": {
+            "address": "dchain173xjvag3p375mrts23pan90z38q4c5n48mykpv",
+            "weight": "1",
+            "metadata": "OC_2",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        },
+        {
+          "group_id": "1",
+          "member": {
+            "address": "dchain1hel7afq5wn42j3jun75ap93ydcxrg5dhzlvxkz",
+            "weight": "1",
+            "metadata": "OC_3",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        },
+        {
+          "group_id": "2",
+          "member": {
+            "address": "dchain10dyzhnj0v702rjjwt5r0tcc6cs8dhg6ttsux80",
+            "weight": "1",
+            "metadata": "TR_1",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        },
+        {
+          "group_id": "2",
+          "member": {
+            "address": "dchain1dean36vsw32xmka33s2c99xcdf9c4up6mnf9wd",
+            "weight": "1",
+            "metadata": "TR_2",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        },
+        {
+          "group_id": "2",
+          "member": {
+            "address": "dchain173rakvqlsmygq4nn427apnlvewr9c32p7juv4p",
+            "weight": "1",
+            "metadata": "TR_3",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        },
+        {
+          "group_id": "3",
+          "member": {
+            "address": "dchain1zw3y62w3a9es4nq925wdtw2q8p05jrj2qt2shp",
+            "weight": "1",
+            "metadata": "EC_1",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        },
+        {
+          "group_id": "3",
+          "member": {
+            "address": "dchain15ts6can6nlg8dltf7msvye6w9dxmpqs5qdcrjd",
+            "weight": "1",
+            "metadata": "EC_2",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        },
+        {
+          "group_id": "3",
+          "member": {
+            "address": "dchain1lr3u0nfu5g9nyzavtrwjdwercndg7cczfvtaj4",
+            "weight": "1",
+            "metadata": "EC_3",
+            "added_at": "2026-10-13T00:00:00Z"
+          }
+        }
+      ],
+      "group_policy_seq": "3",
+      "group_policies": [
+        {
+          "address": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+          "group_id": "1",
+          "admin": "dchain1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsm8h65c",
+          "metadata": "oversight-committee",
+          "version": "1",
+          "decision_policy": {
+            "@type": "/cosmos.group.v1.ThresholdDecisionPolicy",
+            "threshold": "2",
+            "windows": {
+              "voting_period": "600s",
+              "min_execution_period": "0s"
+            }
+          },
+          "created_at": "2026-10-13T00:00:00Z"
+        },
+        {
+          "address": "dchain1dlszg2sst9r69my4f84l3mj66zxcf3umcgujys30t84srg95dgvsf6sqvf",
+          "group_id": "2",
+          "admin": "dchain1dlszg2sst9r69my4f84l3mj66zxcf3umcgujys30t84srg95dgvsf6sqvf",
+          "metadata": "df-treasury",
+          "version": "1",
+          "decision_policy": {
+            "@type": "/cosmos.group.v1.ThresholdDecisionPolicy",
+            "threshold": "2",
+            "windows": {
+              "voting_period": "600s",
+              "min_execution_period": "0s"
+            }
+          },
+          "created_at": "2026-10-13T00:00:00Z"
+        },
+        {
+          "address": "dchain1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqlu29z6",
+          "group_id": "3",
+          "admin": "dchain1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqlu29z6",
+          "metadata": "ecosystem-fee",
+          "version": "1",
+          "decision_policy": {
+            "@type": "/cosmos.group.v1.ThresholdDecisionPolicy",
+            "threshold": "2",
+            "windows": {
+              "voting_period": "600s",
+              "min_execution_period": "0s"
+            }
+          },
+          "created_at": "2026-10-13T00:00:00Z"
+        }
+      ],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "notary": {
+      "notary_info_map": {
+        "1": {
+          "notary_info_admin": "dchain1dmlrqfy28fpcja6xerzu47w4nr6du3m6gu7f4s",
+          "asset_type_id": "1",
+          "notary_ext_opt_route_id": "",
+          "notary_content_route_id": "/d.notary.v1.MsgNotarise:content:1"
+        }
+      },
+      "next_notary_info_id": "2",
+      "notarised_asset_map": {},
+      "asset_type_map": {
+        "1": "invoice"
+      },
+      "currency_conversion_rates": {
+        "1": {
+          "conversiont_rate": "1.000000000000000000"
+        },
+        "2": {
+          "conversiont_rate": "0.850000000000000000"
+        },
+        "3": {
+          "conversiont_rate": "0.870000000000000000"
+        }
+      },
+      "eur_price_in_adt": "250000000000000000000.000000000000000000",
+      "notarisation_fee_rate": "0.005000000000000000"
+    },
+    "runtime": null,
+    "servicepool": {
+      "params": {
+        "service_pool_denom": "adt",
+        "epoch_identifier": "day",
+        "validator_epoch_reward": "15000000000000000000000",
+        "fee_burn_ratio": "1.000000000000000000",
+        "fee_distribute_ratio": "0.000000000000000000"
+      },
+      "accrued_fees": "0",
+      "last_paid_time": "0001-01-01T00:00:00Z"
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "14400",
+        "min_signed_per_window": "0.900000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.000000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 30,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "adt",
+        "min_commission_rate": "0.050000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "upgrade": {},
+    "vcv": {
+      "params": {
+        "suspicious_threshold": "10",
+        "max_presentation_len": "3000"
+      },
+      "route_state": {
+        "routes": {
+          "/d.notary.v1.MsgNotarise:content:1": {
+            "admin": "dchain1dmlrqfy28fpcja6xerzu47w4nr6du3m6gu7f4s",
+            "typ": "ROUTE_TYPE_SD_JWT",
+            "requirements": [
+              {
+                "attribute": "AssetId",
+                "criterion": {
+                  "string_criterion": {
+                    "value": "",
+                    "operator": "STRING_OPERATOR_EQUALS"
+                  }
+                }
+              },
+              {
+                "attribute": "OdpHash",
+                "criterion": {
+                  "string_criterion": {
+                    "value": "",
+                    "operator": "STRING_OPERATOR_EQUALS"
+                  }
+                }
+              }
+            ],
+            "issuers": {
+              "did:web:did.gayadeed.it:templates:6ace6d2e8bfb72b5546fcb95": {
+                "verification_materials": [
+                  {
+                    "jwk": {
+                      "kty": "OKP",
+                      "crv": "Ed25519",
+                      "x": "6X0KvtGU-SUaDrjvv_YgGERAPaFL0h3mQohtM7RpF08",
+                      "y": ""
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "cosmos.gov.v1.MsgVote:extop": {
+            "admin": "dchain10d07y265gmmuvt4z0w9aw880jnsr700jz0hu9t",
+            "typ": "ROUTE_TYPE_SD_JWT",
+            "requirements": [
+              {
+                "attribute": "voter",
+                "criterion": {
+                  "string_criterion": {
+                    "value": "dyn",
+                    "operator": "STRING_OPERATOR_EQUALS"
+                  }
+                }
+              }
+            ],
+            "issuers": {
+              "did:web:did.gayadeed.it:templates:6ace6d2e8bfb72b5546fcb92": {
+                "verification_materials": [
+                  {
+                    "jwk": {
+                      "kty": "OKP",
+                      "crv": "Ed25519",
+                      "x": "lE-NZfvLFdou6f3BaWIP8ovIjemlWrpaIGN9YjYhAIQ",
+                      "y": ""
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "cosmos.staking.v1beta1.MsgCreateValidator:extop": {
+            "admin": "dchain10d07y265gmmuvt4z0w9aw880jnsr700jz0hu9t",
+            "typ": "ROUTE_TYPE_SD_JWT",
+            "requirements": [
+              {
+                "attribute": "idx",
+                "criterion": {
+                  "not_contained_in_criterion": {
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              {
+                "attribute": "validator_oper",
+                "criterion": {
+                  "string_criterion": {
+                    "value": "dyn",
+                    "operator": "STRING_OPERATOR_EQUALS"
+                  }
+                }
+              }
+            ],
+            "issuers": {
+              "did:web:did.gayadeed.it:templates:6ace6d2d8bfb72b5546fcb8c": {
+                "verification_materials": [
+                  {
+                    "jwk": {
+                      "kty": "OKP",
+                      "crv": "Ed25519",
+                      "x": "nZvImEUKSRkY_gkMGZ0rFbueR3ct0cTgEIgE5Dakrzo",
+                      "y": ""
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d.notary.v1.MsgRegisterNotaryInfo:extop": {
+            "admin": "dchain10d07y265gmmuvt4z0w9aw880jnsr700jz0hu9t",
+            "typ": "ROUTE_TYPE_SD_JWT",
+            "requirements": [
+              {
+                "attribute": "sender",
+                "criterion": {
+                  "string_criterion": {
+                    "value": "dyn",
+                    "operator": "STRING_OPERATOR_EQUALS"
+                  }
+                }
+              }
+            ],
+            "issuers": {
+              "did:web:did.gayadeed.it:templates:6ace6d2e8bfb72b5546fcb98": {
+                "verification_materials": [
+                  {
+                    "jwk": {
+                      "kty": "OKP",
+                      "crv": "Ed25519",
+                      "x": "MeUQ1FEydcT8KADmMjkCg_OC-cYM9842w--159jEARQ",
+                      "y": ""
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d.vcv.v1.MsgProcessProposal": {
+            "admin": "dchain10d07y265gmmuvt4z0w9aw880jnsr700jz0hu9t",
+            "typ": "ROUTE_TYPE_SD_JWT",
+            "requirements": [
+              {
+                "attribute": "idx",
+                "criterion": {
+                  "not_contained_in_criterion": {
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              {
+                "attribute": "validator",
+                "criterion": {
+                  "string_criterion": {
+                    "value": "dyn",
+                    "operator": "STRING_OPERATOR_EQUALS"
+                  }
+                }
+              }
+            ],
+            "issuers": {
+              "did:web:did.gayadeed.it:templates:6ace6d2d8bfb72b5546fcb8f": {
+                "verification_materials": [
+                  {
+                    "jwk": {
+                      "kty": "OKP",
+                      "crv": "Ed25519",
+                      "x": "VdNXK7SNJ8O2LaKvEKrv0vgVko15hs08PpqCcqqRLRs",
+                      "y": ""
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "d.vcv.v1.ValidatorVoteExtension": {
+            "admin": "dchain10d07y265gmmuvt4z0w9aw880jnsr700jz0hu9t",
+            "typ": "ROUTE_TYPE_SD_JWT",
+            "requirements": [
+              {
+                "attribute": "idx",
+                "criterion": {
+                  "not_contained_in_criterion": {
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              {
+                "attribute": "validator",
+                "criterion": {
+                  "string_criterion": {
+                    "value": "dyn",
+                    "operator": "STRING_OPERATOR_EQUALS"
+                  }
+                }
+              }
+            ],
+            "issuers": {
+              "did:web:did.gayadeed.it:templates:6ace6d2d8bfb72b5546fcb8f": {
+                "verification_materials": [
+                  {
+                    "jwk": {
+                      "kty": "OKP",
+                      "crv": "Ed25519",
+                      "x": "VdNXK7SNJ8O2LaKvEKrv0vgVko15hs08PpqCcqqRLRs",
+                      "y": ""
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "exported": false
+    },
+    "vesting": {}
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "50000000"
+      },
+      "evidence": {
+        "max_age_num_blocks": "604800",
+        "max_age_duration": "1814400000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "1"
+      },
+      "authority": {
+        "authority": ""
+      }
+    }
+  }
+}
