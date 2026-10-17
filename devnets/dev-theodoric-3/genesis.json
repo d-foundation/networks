@@ -1,7 +1,7 @@
 {
   "app_name": "dchain",
   "app_version": "v1.0.0-rc1",
-  "genesis_time": "2026-10-13T19:00:00Z",
+  "genesis_time": "2026-10-14T11:00:00Z",
   "chain_id": "dchain-devnet-1",
   "initial_height": 1,
   "app_hash": null,
@@ -30,11 +30,11 @@
                 "amount": "30000000000000000000000000"
               }
             ],
-            "delegated_free": [],
+            "delegated_freedchain1syjhquzsthn3h9cepe6q7pu24l7yvu3qsxhjhe": [],
             "delegated_vesting": [],
-            "end_time": "1793145600"
+            "end_time": "1792000800"
           },
-          "start_time": "1791936000"
+          "start_time": "1791979200"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -53,9 +53,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1793145600"
+            "end_time": "1792000800"
           },
-          "start_time": "1791936000"
+          "start_time": "1791979200"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -74,9 +74,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1793145600"
+            "end_time": "1792000800"
           },
-          "start_time": "1791936000"
+          "start_time": "1791979200"
         },
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
@@ -87,9 +87,7 @@
             "sequence": "0"
           },
           "name": "servicepool",
-          "permissions": [
-            "burner"
-          ]
+          "permissions": ["burner"]
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
@@ -97,10 +95,7 @@
           "pub_key": {
             "@type": "/cosmos.auth.v1beta1.ModuleCredential",
             "module_name": "group",
-            "derivation_keys": [
-              "IA==",
-              "AAAAAAAAAAM="
-            ]
+            "derivation_keys": ["IA==", "AAAAAAAAAAM="]
           },
           "account_number": "4",
           "sequence": "0"
@@ -111,10 +106,7 @@
           "pub_key": {
             "@type": "/cosmos.auth.v1beta1.ModuleCredential",
             "module_name": "group",
-            "derivation_keys": [
-              "IA==",
-              "AAAAAAAAAAI="
-            ]
+            "derivation_keys": ["IA==", "AAAAAAAAAAI="]
           },
           "account_number": "5",
           "sequence": "0"
@@ -136,9 +128,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1793145600"
+            "end_time": "1792000800"
           },
-          "start_time": "1791936000"
+          "start_time": "1791979200"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
@@ -153,10 +145,7 @@
           "pub_key": {
             "@type": "/cosmos.auth.v1beta1.ModuleCredential",
             "module_name": "group",
-            "derivation_keys": [
-              "IA==",
-              "AAAAAAAAAAE="
-            ]
+            "derivation_keys": ["IA==", "AAAAAAAAAAE="]
           },
           "account_number": "8",
           "sequence": "0"
@@ -411,9 +400,7 @@
               ],
               "expiration": "2027-10-13T00:00:00Z"
             },
-            "allowed_messages": [
-              "/d.notary.v1.MsgNotarise"
-            ]
+            "allowed_messages": ["/d.notary.v1.MsgNotarise"]
           }
         },
         {
@@ -431,9 +418,7 @@
               ],
               "expiration": "2027-10-13T00:00:00Z"
             },
-            "allowed_messages": [
-              "/d.depository.v1.MsgIssuePT"
-            ]
+            "allowed_messages": ["/d.depository.v1.MsgIssuePT"]
           }
         }
       ]
@@ -890,7 +875,7 @@
     "servicepool": {
       "params": {
         "service_pool_denom": "adt",
-        "epoch_identifier": "day",
+        "epoch_identifier": "hour",
         "validator_epoch_reward": "15000000000000000000000",
         "fee_burn_ratio": "1.000000000000000000",
         "fee_distribute_ratio": "0.000000000000000000"
@@ -1009,9 +994,7 @@
                 "attribute": "idx",
                 "criterion": {
                   "not_contained_in_criterion": {
-                    "values": [
-                      0
-                    ]
+                    "values": [0]
                   }
                 }
               },
@@ -1077,9 +1060,7 @@
                 "attribute": "idx",
                 "criterion": {
                   "not_contained_in_criterion": {
-                    "values": [
-                      0
-                    ]
+                    "values": [0]
                   }
                 }
               },
@@ -1116,9 +1097,7 @@
                 "attribute": "idx",
                 "criterion": {
                   "not_contained_in_criterion": {
-                    "values": [
-                      0
-                    ]
+                    "values": [0]
                   }
                 }
               },
@@ -1165,9 +1144,7 @@
         "max_bytes": "1048576"
       },
       "validator": {
-        "pub_key_types": [
-          "ed25519"
-        ]
+        "pub_key_types": ["ed25519"]
       },
       "version": {
         "app": "0"

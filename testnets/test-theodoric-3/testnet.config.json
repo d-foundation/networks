@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "network_type": "testnet",
+    "chain_id": "test-theodoric-3",
+    "genesis_time": "2026-10-19T09:00:00Z",
+    "protocol_version": "v1.0.0-rc.2"
+  },
+  "economics": {
+    "total_supply_dt": "100000000000",
+    "dt_per_eur": "250"
+  },
+  "allocations": [
+    {
+      "name": "kingnodes",
+      "address": "dchain1ks024yaefp2lcxc9ufyrdvcv88ykwrrn5dekhm",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "fcs-finoa",
+      "address": "dchain1zy4c63r30jkxcpnfhgua9ju6mmmlsyz528h9kf",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "artifact",
+      "address": "dchain1uyke8lyflm8pf30f9l22s69dz546mv3l2ult7h",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "pro-delegators",
+      "address": "dchain12v3w8ypnj98su6a8mv988djwpwedj9nesyqh3v",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "high-stakes",
+      "address": "dchain19a3tjeuyy0v6y0kzrs68qtlx59kqwa7q0qzuae",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "dsrv",
+      "address": "dchain1lpj8g4k6tcum78jy7c7gvwdj96l5u979j4mw50",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "solva",
+      "address": "dchain1s4ulwj2zka7gzdyhtyxt5mpavke6fvky55gu7z",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "platformd",
+      "address": "dchain1336lmkwlxuslayn3fenjam455jl8urdjcq3x2l",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "rhino",
+      "address": "dchain13mz72k7859ueu9zv3fzclm4g9j0q0a2lc8q4nu",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "linkpool",
+      "address": "dchain13jrncl9qy6rwlduetauhgfsukt59m90zllz2ht",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "1xp PLACEHOLDER:1xp_address",
+      "address": "dchain147gx9a08jp7gs36wfyccegq93amuzkjpzr58zp",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "zeeve",
+      "address": "dchain1x0au0wgkhs88rxwulwuegd6jjr2dafenwmrxla",
+      "amount_dt": "30000000",
+      "type": "validator",
+      "vesting": {
+        "start_offset_seconds": 7776000,
+        "end_offset_seconds": 10368000
+      }
+    },
+    {
+      "name": "service-pool",
+      "amount_dt": "10000000000",
+      "type": "module",
+      "module": "servicepool"
+    },
+    {
+      "name": "ecosystem-fee",
+      "amount_dt": "12000000000",
+      "type": "group_policy",
+      "policy_seq": 3
+    },
+    {
+      "name": "df-treasury",
+      "amount_dt": "32000000000",
+      "type": "group_policy",
+      "policy_seq": 2
+    },
+    {
+      "name": "tge-pool",
+      "address": "dchain1zl3frxjt9dzva9axpwg5vja2778ej3ns0c58zp",
+      "amount_dt": "45540000000",
+      "type": "continuous_vesting",
+      "vesting": {
+        "start_offset_seconds": 2592000,
+        "end_offset_seconds": 3801600
+      }
+    },
+    {
+      "name": "faucet",
+      "address": "dchain1c02tyur3xsh8l8fngt2r4gqczus9rhzmdhhytr",
+      "amount_dt": "100000000",
+      "type": "base"
+    }
+  ],
+  "module_params": {
+    "auth": { "tx_size_cost_per_byte": 15 },
+    "staking": {
+      "unbonding_seconds": 1814400,
+      "max_validators": 30,
+      "min_commission_rate": "0.05"
+    },
+    "slashing": {
+      "signed_blocks_window": 14400,
+      "min_signed_per_window": "0.90",
+      "downtime_jail_seconds": 600,
+      "slash_fraction_double_sign": "0",
+      "slash_fraction_downtime": "0"
+    },
+    "gov": {
+      "min_deposit_dt": "100",
+      "expedited_min_deposit_dt": "500",
+      "voting_seconds": 3600,
+      "expedited_voting_seconds": 1800,
+      "max_deposit_seconds": 3600,
+      "quorum": "0.334",
+      "threshold": "0.5",
+      "veto_threshold": "0.334",
+      "burn_vote_veto": true,
+      "oversight_grace_seconds": 900,
+      "oversight_disallowed_list": []
+    },
+    "servicepool": {
+      "epoch_identifier": "day",
+      "validator_epoch_reward_dt": "15000",
+      "fee_burn_ratio": "1.0",
+      "fee_distribute_ratio": "0.0"
+    },
+    "evm": {
+      "create_allowlist": ["0xc85d9f6bb3ea8f30e52c06b4df1a0c9413623814"]
+    },
+    "feemarket": {
+      "tx_target_eur_cents": "0.01",
+      "reference_gas": 200000
+    },
+    "erc20": { "permissionless_registration": false }
+  },
+  "groups": {
+    "oversight_committee": {
+      "members": [
+        {
+          "address": "dchain1rhsq2r7nsp72ruamns4ha0yrdkean8qfuxz67p",
+          "weight": "1",
+          "metadata": "OC_1"
+        },
+        {
+          "address": "dchain14v6catjwrrgdv88y9zzydcuayvs6kx6fnht2fj",
+          "weight": "1",
+          "metadata": "OC_2"
+        },
+        {
+          "address": "dchain1uc70rsmwnhf748puwpz4v9kggnafzramrrsq0q",
+          "weight": "1",
+          "metadata": "OC_3"
+        }
+      ],
+      "threshold": "2",
+      "voting_period_seconds": 600,
+      "min_execution_seconds": 0
+    },
+    "treasury": {
+      "members": [
+        {
+          "address": "dchain13gjg8ldgcrrxrshps5psf8w2388zvrm6y73f2z",
+          "weight": "1",
+          "metadata": "TR_1"
+        },
+        {
+          "address": "dchain10djcjmms09ehdk4e4ruv9k0tdeev85khd8u5mj",
+          "weight": "1",
+          "metadata": "TR_2"
+        },
+        {
+          "address": "dchain109tme52427gspprr0yxvncvvu6me4elxw3gwag",
+          "weight": "1",
+          "metadata": "TR_3"
+        }
+      ],
+      "threshold": "2",
+      "voting_period_seconds": 600,
+      "min_execution_seconds": 0
+    },
+    "ecosystem": {
+      "members": [
+        {
+          "address": "dchain1zzydsgxduyrnmqdf5c9q9ge5gvcs43w7lnv75j",
+          "weight": "1",
+          "metadata": "EC_1"
+        },
+        {
+          "address": "dchain14gx5x8sxuvk9dka48wyjcfhpzycwl805qknlqf",
+          "weight": "1",
+          "metadata": "EC_2"
+        },
+        {
+          "address": "dchain1q20gfq8hlm7vuut5a9r9z4w62zxejk34fp56f6",
+          "weight": "1",
+          "metadata": "EC_3"
+        }
+      ],
+      "threshold": "2",
+      "voting_period_seconds": 600,
+      "min_execution_seconds": 0
+    }
+  },
+  "vcv": {
+    "suspicious_threshold": 10,
+    "max_presentation_len": 3000,
+    "routes": {
+      "create_validator": {
+        "admin": "gov",
+        "issuer_did": "did:web:did.gayadeed.it:templates:6ace72018bfb72b5546fcb9b",
+        "jwk": {
+          "kty": "OKP",
+          "crv": "Ed25519",
+          "x": "NH-Aen7iboDG4R7cXcDLm2te4EbmdEhr6vaEOt59bEQ"
+        }
+      },
+      "vote": {
+        "admin": "gov",
+        "issuer_did": "did:web:did.gayadeed.it:templates:6ace72038bfb72b5546fcba1",
+        "jwk": {
+          "kty": "OKP",
+          "crv": "Ed25519",
+          "x": "4P0m6WgAVJxMyK4aF8jB2F5HomW_ZnCLcV1rUePp5dc"
+        }
+      },
+      "vote_extension": {
+        "admin": "gov",
+        "issuer_did": "did:web:did.gayadeed.it:templates:6ace72018bfb72b5546fcb9e",
+        "jwk": {
+          "kty": "OKP",
+          "crv": "Ed25519",
+          "x": "VdACNZdMPYGVWmFBEPyX0kySqLszKu-_K36bQ_5JXDU"
+        }
+      },
+      "process_proposal": {
+        "admin": "gov",
+        "issuer_did": "did:web:did.gayadeed.it:templates:6ace72018bfb72b5546fcb9e",
+        "jwk": {
+          "kty": "OKP",
+          "crv": "Ed25519",
+          "x": "VdACNZdMPYGVWmFBEPyX0kySqLszKu-_K36bQ_5JXDU"
+        }
+      },
+      "register_notary_info": {
+        "admin": "gov",
+        "issuer_did": "did:web:did.gayadeed.it:templates:6ace72048bfb72b5546fcba7",
+        "jwk": {
+          "kty": "OKP",
+          "crv": "Ed25519",
+          "x": "lUcK0_ih3AlaFc2P4S8o-VTFCowavUjrjDjLEf9VErs"
+        }
+      },
+      "notarise_content": {
+        "issuer_did": "did:web:did.gayadeed.it:templates:6ace72038bfb72b5546fcba4",
+        "jwk": {
+          "kty": "OKP",
+          "crv": "Ed25519",
+          "x": "kr9ifi16hLWQq5Yhk1IqiUXIDwCJWUCdruyDIDAKft0"
+        }
+      }
+    }
+  },
+  "feegrant": [
+    {
+      "grantee": "dchain18xzmuz2cgxpdc25aqdl3ej4dustd3ajc35yv5f",
+      "spend_limit_dt": "10000000",
+      "expiry_seconds": 31536000,
+      "allowed_messages": [
+        "/d.notary.v1.MsgNotarise",
+        "/d.notary.v1.MsgUpdateNotarisedAsset"
+      ]
+    },
+    {
+      "grantee": "dchain18ggfex3250p8yppddkq3px4x9me9c2hrynsgsq",
+      "spend_limit_dt": "10000000",
+      "expiry_seconds": 31536000,
+      "allowed_messages": ["/d.depository.v1.MsgIssuePTWithGlobalNote"]
+    }
+  ],
+  "notary": {
+    "admin_address": "dchain1czrx9mxa6k9rzjxg8g6x854na9fuzse206lm60",
+    "notarisation_fee_rate": "0.005",
+    "eur_price_dt": "250",
+    "asset_types": { "1": "invoice" },
+    "conversion_rates": { "1": "1.0", "2": "0.85", "3": "0.87" }
+  },
+  "depository": {
+    "platform_admin": "dchain1wxsfcwkycz70t8k5ne8a0em9qepkhru0rjuq2h",
+    "depositories": [
+      {
+        "id": "DEPO-1",
+        "owner": "dchain1fyg49epwplfhmn3egn2mn3zem22tdr0w5an5r3",
+        "pauser": "dchain182az95s6qhdkwp4n3w8j7852d8z8x5fyevhdw0",
+        "region": "UK"
+      }
+    ],
+    "authorised_issuers": {
+      "DEPO-1": "dchain18ggfex3250p8yppddkq3px4x9me9c2hrynsgsq"
+    }
+  },
+  "consensus": {
+    "block_max_bytes": 22020096,
+    "block_max_gas": 50000000,
+    "evidence_max_age_blocks": 604800,
+    "evidence_max_age_seconds": 1814400
+  }
+}
