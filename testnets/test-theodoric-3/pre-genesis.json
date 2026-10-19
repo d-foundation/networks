@@ -32,9 +32,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -53,9 +53,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -74,9 +74,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -95,9 +95,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -116,9 +116,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -137,9 +137,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -158,9 +158,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -179,9 +179,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -200,9 +200,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -221,9 +221,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -242,9 +242,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
@@ -263,9 +263,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1802768400"
+            "end_time": "1802854800"
           },
-          "start_time": "1800176400"
+          "start_time": "1800262800"
         },
         {
           "@type": "/cosmos.auth.v1beta1.ModuleAccount",
@@ -276,7 +276,9 @@
             "sequence": "0"
           },
           "name": "servicepool",
-          "permissions": ["burner"]
+          "permissions": [
+            "burner"
+          ]
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
@@ -284,7 +286,10 @@
           "pub_key": {
             "@type": "/cosmos.auth.v1beta1.ModuleCredential",
             "module_name": "group",
-            "derivation_keys": ["IA==", "AAAAAAAAAAM="]
+            "derivation_keys": [
+              "IA==",
+              "AAAAAAAAAAM="
+            ]
           },
           "account_number": "13",
           "sequence": "0"
@@ -295,7 +300,10 @@
           "pub_key": {
             "@type": "/cosmos.auth.v1beta1.ModuleCredential",
             "module_name": "group",
-            "derivation_keys": ["IA==", "AAAAAAAAAAI="]
+            "derivation_keys": [
+              "IA==",
+              "AAAAAAAAAAI="
+            ]
           },
           "account_number": "14",
           "sequence": "0"
@@ -317,9 +325,9 @@
             ],
             "delegated_free": [],
             "delegated_vesting": [],
-            "end_time": "1796202000"
+            "end_time": "1796288400"
           },
-          "start_time": "1794992400"
+          "start_time": "1795078800"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
@@ -334,7 +342,10 @@
           "pub_key": {
             "@type": "/cosmos.auth.v1beta1.ModuleCredential",
             "module_name": "group",
-            "derivation_keys": ["IA==", "AAAAAAAAAAE="]
+            "derivation_keys": [
+              "IA==",
+              "AAAAAAAAAAE="
+            ]
           },
           "account_number": "17",
           "sequence": "0"
@@ -668,7 +679,7 @@
                   "amount": "10000000000000000000000000"
                 }
               ],
-              "expiration": "2027-10-19T09:00:00Z"
+              "expiration": "2027-10-20T09:00:00Z"
             },
             "allowed_messages": [
               "/d.notary.v1.MsgNotarise",
@@ -689,9 +700,11 @@
                   "amount": "10000000000000000000000000"
                 }
               ],
-              "expiration": "2027-10-19T09:00:00Z"
+              "expiration": "2027-10-20T09:00:00Z"
             },
-            "allowed_messages": ["/d.depository.v1.MsgIssuePTWithGlobalNote"]
+            "allowed_messages": [
+              "/d.depository.v1.MsgIssuePTWithGlobalNote"
+            ]
           }
         }
       ]
@@ -766,7 +779,7 @@
           "metadata": "oversight-committee",
           "version": "1",
           "total_weight": "3",
-          "created_at": "2026-10-19T09:00:00Z"
+          "created_at": "2026-10-20T09:00:00Z"
         },
         {
           "id": "2",
@@ -774,7 +787,7 @@
           "metadata": "df-treasury",
           "version": "1",
           "total_weight": "3",
-          "created_at": "2026-10-19T09:00:00Z"
+          "created_at": "2026-10-20T09:00:00Z"
         },
         {
           "id": "3",
@@ -782,7 +795,7 @@
           "metadata": "ecosystem-fee",
           "version": "1",
           "total_weight": "3",
-          "created_at": "2026-10-19T09:00:00Z"
+          "created_at": "2026-10-20T09:00:00Z"
         }
       ],
       "group_members": [
@@ -792,7 +805,7 @@
             "address": "dchain1rhsq2r7nsp72ruamns4ha0yrdkean8qfuxz67p",
             "weight": "1",
             "metadata": "OC_1",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         },
         {
@@ -801,7 +814,7 @@
             "address": "dchain14v6catjwrrgdv88y9zzydcuayvs6kx6fnht2fj",
             "weight": "1",
             "metadata": "OC_2",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         },
         {
@@ -810,7 +823,7 @@
             "address": "dchain1uc70rsmwnhf748puwpz4v9kggnafzramrrsq0q",
             "weight": "1",
             "metadata": "OC_3",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         },
         {
@@ -819,7 +832,7 @@
             "address": "dchain13gjg8ldgcrrxrshps5psf8w2388zvrm6y73f2z",
             "weight": "1",
             "metadata": "TR_1",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         },
         {
@@ -828,7 +841,7 @@
             "address": "dchain10djcjmms09ehdk4e4ruv9k0tdeev85khd8u5mj",
             "weight": "1",
             "metadata": "TR_2",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         },
         {
@@ -837,7 +850,7 @@
             "address": "dchain109tme52427gspprr0yxvncvvu6me4elxw3gwag",
             "weight": "1",
             "metadata": "TR_3",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         },
         {
@@ -846,7 +859,7 @@
             "address": "dchain1zzydsgxduyrnmqdf5c9q9ge5gvcs43w7lnv75j",
             "weight": "1",
             "metadata": "EC_1",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         },
         {
@@ -855,7 +868,7 @@
             "address": "dchain14gx5x8sxuvk9dka48wyjcfhpzycwl805qknlqf",
             "weight": "1",
             "metadata": "EC_2",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         },
         {
@@ -864,7 +877,7 @@
             "address": "dchain1q20gfq8hlm7vuut5a9r9z4w62zxejk34fp56f6",
             "weight": "1",
             "metadata": "EC_3",
-            "added_at": "2026-10-19T09:00:00Z"
+            "added_at": "2026-10-20T09:00:00Z"
           }
         }
       ],
@@ -884,7 +897,7 @@
               "min_execution_period": "0s"
             }
           },
-          "created_at": "2026-10-19T09:00:00Z"
+          "created_at": "2026-10-20T09:00:00Z"
         },
         {
           "address": "dchain1dlszg2sst9r69my4f84l3mj66zxcf3umcgujys30t84srg95dgvsf6sqvf",
@@ -900,7 +913,7 @@
               "min_execution_period": "0s"
             }
           },
-          "created_at": "2026-10-19T09:00:00Z"
+          "created_at": "2026-10-20T09:00:00Z"
         },
         {
           "address": "dchain1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqlu29z6",
@@ -916,7 +929,7 @@
               "min_execution_period": "0s"
             }
           },
-          "created_at": "2026-10-19T09:00:00Z"
+          "created_at": "2026-10-20T09:00:00Z"
         }
       ],
       "proposal_seq": "0",
@@ -1074,7 +1087,9 @@
                 "attribute": "idx",
                 "criterion": {
                   "not_contained_in_criterion": {
-                    "values": [0]
+                    "values": [
+                      0
+                    ]
                   }
                 }
               },
@@ -1140,7 +1155,9 @@
                 "attribute": "idx",
                 "criterion": {
                   "not_contained_in_criterion": {
-                    "values": [0]
+                    "values": [
+                      0
+                    ]
                   }
                 }
               },
@@ -1177,7 +1194,9 @@
                 "attribute": "idx",
                 "criterion": {
                   "not_contained_in_criterion": {
-                    "values": [0]
+                    "values": [
+                      0
+                    ]
                   }
                 }
               },
@@ -1224,7 +1243,9 @@
         "max_bytes": "1048576"
       },
       "validator": {
-        "pub_key_types": ["ed25519"]
+        "pub_key_types": [
+          "ed25519"
+        ]
       },
       "version": {
         "app": "0"

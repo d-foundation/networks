@@ -2,7 +2,7 @@
   "identity": {
     "network_type": "testnet",
     "chain_id": "test-theodoric-3",
-    "genesis_time": "2026-10-19T09:00:00Z",
+    "genesis_time": "2026-10-20T09:00:00Z",
     "protocol_version": "v1.0.0-rc.2"
   },
   "economics": {
@@ -111,7 +111,7 @@
       }
     },
     {
-      "name": "1xp PLACEHOLDER:1xp_address",
+      "name": "1xp",
       "address": "dchain147gx9a08jp7gs36wfyccegq93amuzkjpzr58zp",
       "amount_dt": "30000000",
       "type": "validator",
@@ -124,7 +124,7 @@
       "name": "zeeve",
       "address": "dchain1x0au0wgkhs88rxwulwuegd6jjr2dafenwmrxla",
       "amount_dt": "30000000",
-      "type": "validator",
+      "type": "continuous_vesting",
       "vesting": {
         "start_offset_seconds": 7776000,
         "end_offset_seconds": 10368000
