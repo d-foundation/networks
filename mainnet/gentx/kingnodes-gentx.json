@@ -5,10 +5,10 @@
         "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
         "description": {
           "moniker": "kingnodes",
-          "identity": "",
-          "website": "",
+          "identity": "30E6CD38D9721222",
+          "website": "https://kingnodes.com",
           "security_contact": "security@kingnodes.com",
-          "details": ""
+          "details": "Enterprise web3 infrastructure provider. TG: t.me/kingnodes"
         },
         "commission": {
           "rate": "0.050000000000000000",
@@ -28,7 +28,7 @@
         }
       }
     ],
-    "memo": "e477effd4cf5484e6ab6e373045565ca16f31fb3@160.250.106.102:26656",
+    "memo": "e477effd4cf5484e6ab6e373045565ca16f31fb3@160.250.106.102:30956",
     "timeout_height": "0",
     "unordered": false,
     "timeout_timestamp": null,
@@ -64,6 +64,6 @@
     "tip": null
   },
   "signatures": [
-    "Ocd6MoRZAu8y+tz3fojFyniUidbjTHlqFxEKtTTn1WRfUgWhZa70QrkWhv0lIJTABNFM2MEgjpcxG0WSB5A4JQE="
+    "Oxyp0O9ncK9fWXb8klfJffqv/oiH/yBDWqx9i15w9rZKJDIlhUPCn/befRnQYSOgcdceMA2XNMrsZHHtG4yRqwE="
   ]
 }
