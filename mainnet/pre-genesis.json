@@ -250,7 +250,7 @@
           "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "dchain1puz3t5m2smt8lsrzwz0saza0qtek7a0sk66ggd",
+              "address": "dchain1vx0crvu96vu8l30dckdtkumgfwq9dtunakrl7l",
               "pub_key": null,
               "account_number": "11",
               "sequence": "0"
@@ -291,14 +291,14 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "dchain1j44tq3y7skyy5t9d2m2tj3xtgrs3x97ft6y8kt",
+          "address": "dchain1tw7qpshmefrrsmmqu5m5e2q84uhtx0evne67th",
           "pub_key": null,
           "account_number": "14",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "dchain1xw5xv9qk89rxupvys2xs8zstxhrxgwzvnazc6j",
+          "address": "dchain1wm9m6n9lpqcn4k5ezlha888kltk7uw0gtwa7vq",
           "pub_key": null,
           "account_number": "15",
           "sequence": "0"
@@ -351,15 +351,6 @@
           ]
         },
         {
-          "address": "dchain1j44tq3y7skyy5t9d2m2tj3xtgrs3x97ft6y8kt",
-          "coins": [
-            {
-              "denom": "adt",
-              "amount": "11999999400000000000000000000"
-            }
-          ]
-        },
-        {
           "address": "dchain1kdfe03c536w8w3dzjw8laljy668xpqkjns2wsg",
           "coins": [
             {
@@ -370,15 +361,6 @@
         },
         {
           "address": "dchain1mls8gyrdrehywqx0rw2kcwaqnc2uep9wqs5ex5",
-          "coins": [
-            {
-              "denom": "adt",
-              "amount": "30000050000000000000000000"
-            }
-          ]
-        },
-        {
-          "address": "dchain1puz3t5m2smt8lsrzwz0saza0qtek7a0sk66ggd",
           "coins": [
             {
               "denom": "adt",
@@ -441,6 +423,24 @@
           ]
         },
         {
+          "address": "dchain1tw7qpshmefrrsmmqu5m5e2q84uhtx0evne67th",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "11999999400000000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "dchain1vx0crvu96vu8l30dckdtkumgfwq9dtunakrl7l",
+          "coins": [
+            {
+              "denom": "adt",
+              "amount": "30000050000000000000000000"
+            }
+          ]
+        },
+        {
           "address": "dchain1w7xw7fxhl6a8d86yf6jswqtum8s4nd5fmg3p7p",
           "coins": [
             {
@@ -450,7 +450,7 @@
           ]
         },
         {
-          "address": "dchain1xw5xv9qk89rxupvys2xs8zstxhrxgwzvnazc6j",
+          "address": "dchain1wm9m6n9lpqcn4k5ezlha888kltk7uw0gtwa7vq",
           "coins": [
             {
               "denom": "adt",
@@ -614,7 +614,7 @@
     "feegrant": {
       "allowances": [
         {
-          "granter": "dchain1j44tq3y7skyy5t9d2m2tj3xtgrs3x97ft6y8kt",
+          "granter": "dchain1tw7qpshmefrrsmmqu5m5e2q84uhtx0evne67th",
           "grantee": "dchain1vhwtgzs224s3r3gvxzgj4rsdy87scwjzjmrk63",
           "allowance": {
             "@type": "/cosmos.feegrant.v1beta1.AllowedMsgAllowance",
@@ -635,7 +635,7 @@
           }
         },
         {
-          "granter": "dchain1j44tq3y7skyy5t9d2m2tj3xtgrs3x97ft6y8kt",
+          "granter": "dchain1tw7qpshmefrrsmmqu5m5e2q84uhtx0evne67th",
           "grantee": "dchain1ccyac744d4lrca62ceejf33d8l5h9tgyd5gksc",
           "allowance": {
             "@type": "/cosmos.feegrant.v1beta1.AllowedMsgAllowance",
@@ -711,7 +711,7 @@
       "oversight_committee_params": {
         "grace_period": "172800"
       },
-      "oversight_committee_addr": "dchain1qsg7s760d752j4f8dglgs9tc7zryvg4d69rpy3",
+      "oversight_committee_addr": "dchain1u9q2anek630ghpuyncs9nq7s63qx3ys43fcku8",
       "oversight_committee_disallowed_list": [],
       "exported": false
     },

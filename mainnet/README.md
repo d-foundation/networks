@@ -19,6 +19,8 @@ cp pre-genesis.json $DCHAIN_HOME/config/genesis.json
 
 Then create the gentx. The staking/bond denom is `adt` (18 decimals, 1 DT = 10^18 adt). Each genesis validator is allocated 30,000,000 DT (vested) and 50 DT (for operations from the ecosystem sponsor pool); the example below self-delegates 10,000,000 DT with a minimum self-delegation of 1 DT. Note the network enforces a minimum commission rate of `0.05`.
 
+A fee is **required**: gentxs are executed through the full ante chain at genesis, and the feemarket minimum gas price (`12500000000000adt`/gas) applies to them — a gentx without a fee fails at chain start with `fee not provided ... insufficient fee`. Pass `--gas-prices` (not `--fees`) so the fee is always computed correctly from the gas limit. Gas is not metered during the genesis block, so the gas limit's only effect is the fee charged: the example below uses `--gas 10000` (fee 0.125 DT, deducted in full from your 50 DT liquid allocation); the CLI default of 200,000 would cost 2.5 DT.
+
 ```bash
 dchain genesis gentx <key-name> 10000000000000000000000000adt \
   --chain-id="dchain-1" \
@@ -31,6 +33,8 @@ dchain genesis gentx <key-name> 10000000000000000000000000adt \
   --commission-max-rate="0.1" \
   --commission-max-change-rate="0.01" \
   --min-self-delegation="1000000000000000000" \
+  --gas="10000" \
+  --gas-prices="12500000000000adt" \
   --ip="<public-ip>" \
   --node-id=$(dchain cometbft show-node-id)
 ```
@@ -43,12 +47,12 @@ The signed gentx is written to `$DCHAIN_HOME/config/gentx/`. Submit it as a PR a
 
 `dchain init` writes defaults that are wrong for this network — every validator must change both settings below.
 
-**1. `DCHAIN_HOME/config/app.toml`** — set the EVM chain ID to **430** (the default is 262144):
+**1. `DCHAIN_HOME/config/app.toml`** — set the EVM chain ID to **433** (the default is 262144):
 
 ```toml
 [evm]
 # EVMChainID is the EIP-155 compatible replay protection chain ID. This is separate from the Cosmos chain ID.
-evm-chain-id = 430
+evm-chain-id = 433 # Differs from testnet (430)
 ```
 
 **2. `DCHAIN_HOME/config/config.toml`** — use the app-side mempool, required for EVM tx handling (the default is "flood"):
@@ -58,15 +62,15 @@ evm-chain-id = 430
 type = "app"
 ```
 
-**3. Min gas price DCHAIN_HOME/config/app.toml**
+**3. Min gas price `DCHAIN_HOME/config/app.toml`**
 
-Dchain uses fee market, but for each node, you may configure the min gas price.
+Node-local CheckTx floor; align it with the network's feemarket `min_gas_price`:
 
 ```toml
-minimum-gas-prices = "125000000000adt"
+minimum-gas-prices = "12500000000000adt"
 ```
 
-**3. Adding your Verifiable Presentation**:
+**4. Adding your Verifiable Presentation**:
 
 > **If you do not have the VP, you will not be able to propose / vote on blocks and will be jailed.**
 
