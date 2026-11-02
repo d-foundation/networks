@@ -51,14 +51,19 @@
       }
     ],
     "fee": {
-      "amount": [],
-      "gas_limit": "200000",
+      "amount": [
+        {
+          "denom": "adt",
+          "amount": "125000000000000000"
+        }
+      ],
+      "gas_limit": "10000",
       "payer": "",
       "granter": ""
     },
     "tip": null
   },
   "signatures": [
-    "wDI54tMopSNnv3/fNqhLem7Wk83VCBH+nJLc2z4q0xRMP60pfj2pfmPAlReBSrL5wkRhvxb4AFAhtXMs/QjhHQE="
+    "RUnyS310KrQKhT0+72zdb4tmtjTnpRCvnXjSr/VfLWQreXh6WFuGm5V28+uuPuthUjJ4Dmx0aJuVFjfLCtmJJAE="
   ]
 }
